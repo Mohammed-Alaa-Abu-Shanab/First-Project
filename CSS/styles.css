@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+
+body{
+    background-color: #eee;
+}
+
+ul{
+    background-color: rgb(26, 35, 96);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+ nav ul li:hover{
+    background-color: rgb(147, 111, 79);
+    padding:0 10px;
+    transition-duration: 0.1s;
+}
+
+.main-image{
+    background-image: url(../images/BG.jpg);
+    height: 400px;
+    background-size: cover;
+    background-position: center center;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.content h1{
+    color: rgb(103, 77, 55);
+}
+
+.content p{
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+}
+
+.content img{
+    margin-top: 15px
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.features{
+    display: flex;
+
+}
+
+.features .feature{
+    text-align: center;
+    width: 30%;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.features .feature:hover{
+    box-shadow: 3px 3px 15px rgb(152, 151, 151);
+    transform: scale(1.1);
+    background-color: rgb(242, 242, 242);
+    transition: all 0.3s;
+}
+
+.feature i{
+    font-size: 30px;
+    padding: 10px;
+    background-color: rgb(85, 59, 29);
+    border-radius: 5px;
+    color: rgb(231, 229, 229);
+}
+
+.feature h3{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.content{
+    margin-top: 50px;
+}
+.container h2{
+    margin: 30px auto;
+    font-size: 30px;
+    color: rgb(103, 77, 55);
+}
+
+.contact-form{
+    width: 500px;
+    margin: 70px auto;
+    background-color: white;
+    padding: 50px 20px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+
+.input-form{
+    margin-bottom: 20px;
+}
+.input-form input{
+    width: 400px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 179, 179);
+}
+
+textarea{
+    width: 360px;
+    height: 160px;
+    border-radius: 5px;
+    border: 1px solid rgb(180, 179, 179); 
+}
+
+button{
+    width: 250px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(2, 175, 8);
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(2, 175, 8, 0.8);
+    transition-duration: 0.1s;
+
+}
+
+.footer{
+    margin-top: 150px;
+}
+
+.inside-footer{
+    background-color: rgb(85, 59, 29);
+    text-align: center;
+}
+
+.inside-footer h4{
+    padding-top: 25px;
+    color: white;
+    margin: auto;
+}
+.footer ul{
+    background-color: rgb(85, 59, 29);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.inside-footer ul li a i{
+    font-size: 30px
+}
+
+.inside-footer ul li a i:hover{
+    transition: all 0.2s;
+    transform: scale(1.5);
+}
